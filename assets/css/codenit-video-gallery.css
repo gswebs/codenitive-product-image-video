@@ -1,0 +1,37 @@
+.codenit-wc-video-thumb {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.codenit-wc-video-play {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width:35px;
+    height:35px;
+    display:block;
+    background-size:contain;
+    pointer-events:none;
+}
+
+.codenit-wc-video-overlay {
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.8);
+    z-index: 10000;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.codenit-wc-product-video-wrapper iframe,
+.codenit-wc-product-video-wrapper video {
+    width: 100%;
+    height: 100%;
+    min-height: 450px;
+}
