@@ -11,7 +11,7 @@ class CODENIT_WC_Product_Image_Video_CF {
     public function add_video_field_to_attachment($form_fields, $post) {
         $video_url = get_post_meta($post->ID, '_codenit_wc_video_url', true);
         $form_fields['codenit_wc_video_url'] = [
-            'label' => __( 'Video URL', 'codenitive-product-image-video' ),
+            'label' => __( 'Video URL', 'product-image-video-gallery-for-woocommerce' ),
             'input' => 'text',
             'value' => $video_url,
             'helps' => 'Add a video URL (YouTube, Vimeo, MP4) for this product image.'
@@ -25,7 +25,7 @@ class CODENIT_WC_Product_Image_Video_CF {
             if ( $preview ) {
                 // oEmbed preview (YouTube, Vimeo, etc.)
                 $form_fields['codenit_video_preview'] = [
-                    'label' => __( 'Video Preview', 'codenitive-product-image-video' ),
+                    'label' => __( 'Video Preview', 'product-image-video-gallery-for-woocommerce' ),
                     'input' => 'html',
                     'html'  => $preview,
                 ];
@@ -34,7 +34,7 @@ class CODENIT_WC_Product_Image_Video_CF {
                 $file_ext = pathinfo( $video_url, PATHINFO_EXTENSION );
                 if ( strtolower($file_ext) === 'mp4' ) {
                     $form_fields['codenit_video_preview'] = [
-                        'label' => __( 'Video Preview', 'codenitive-product-image-video' ),
+                        'label' => __( 'Video Preview', 'product-image-video-gallery-for-woocommerce' ),
                         'input' => 'html',
                         'html'  => '<video width="320" height="180" controls>
                                       <source src="' . esc_url($video_url) . '" type="video/mp4">

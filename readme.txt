@@ -1,4 +1,4 @@
-=== Codenitive Product Image Video ===
+=== Product Image Video Gallery for WooCommerce ===
 Contributors: codenitive
 Tags: woocommerce, product video, youtube, vimeo, self hosted video
 Requires at least: 5.6

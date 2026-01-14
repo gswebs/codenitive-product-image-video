@@ -1,8 +1,8 @@
 <?php
 /*
-* Plugin Name: Codenitive Product Image Video
-* Plugin URI:  https://github.com/gswebs/codenitive-product-image-video
-* Description: Adds a custom field to WooCommerce product images to allow video URLs and display them in the product gallery.
+* Plugin Name: Product Image Video Gallery for WooCommerce
+* Plugin URI:  https://github.com/gswebs/product-image-video-gallery-for-woocommerce
+* Description: Add videos to WooCommerce product image gallery and thumbnails using image attachment fields.
 * Version: 1.0.3
 * Requires at least: 5.6
 * Tested up to: 6.9
@@ -12,9 +12,9 @@
 * Requires Plugins: woocommerce
 * License: GPL v2 or later
 * License URI: https://www.gnu.org/licenses/gpl-2.0.html
-* Text Domain: codenitive-product-image-video
+* Text Domain: product-image-video-gallery-for-woocommerce
 *
-* @package codenitive-product-image-video
+* @package product-image-video-gallery-for-woocommerce
 */
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
@@ -49,7 +49,7 @@ final class Codenitive_WC_Product_Video {
         define( 'CODENITIVE_WCPV_BASENAME', plugin_basename(__FILE__) );
         define( 'CODENITIVE_WCPV_PATH', plugin_dir_path( __FILE__ ) );
         define( 'CODENITIVE_WCPV_URL', plugin_dir_url( __FILE__ ) );
-        define( 'CODENITIVE_WCPV_VERSION', '1.1.0' );
+        define( 'CODENITIVE_WCPV_VERSION', '1.0.3' );
     }
 
     private function includes() {

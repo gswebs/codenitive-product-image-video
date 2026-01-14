@@ -24,7 +24,7 @@ class CODENIT_WC_Video_Settings {
         if ( $page === 'codenit-wc-video-settings' && $updated === 'true' ) {
             ?>
             <div class="notice notice-success is-dismissible">
-                <p><?php esc_html_e( 'Video settings saved successfully.', 'codenitive-product-image-video' ); ?></p>
+                <p><?php esc_html_e( 'Video settings saved successfully.', 'product-image-video-gallery-for-woocommerce' ); ?></p>
             </div>
             <?php
         }
