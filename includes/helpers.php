@@ -1,7 +1,7 @@
 <?php
 if (!defined('ABSPATH')) exit;
 
-add_filter('tokoo_wc_single_product_image_thumbnail_html', function($html, $attachment_id) {
+add_filter('woocommerce_single_product_image_thumbnail_html', function($html, $attachment_id) {
     
     $overlay_icon = get_option('codenit_wc_video_overlay', '');
     // Check if this attachment has a video URL
