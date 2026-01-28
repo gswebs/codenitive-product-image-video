@@ -3,7 +3,7 @@
 * Plugin Name: Product Image Video Gallery for WooCommerce
 * Plugin URI:  https://github.com/gswebs/product-image-video-gallery-for-woocommerce
 * Description: Add videos to WooCommerce product image gallery and thumbnails using image attachment fields.
-* Version: 1.0.3
+* Version: 1.0.4
 * Requires at least: 5.6
 * Tested up to: 6.9
 * Requires PHP: 7.4
@@ -49,7 +49,7 @@ final class Codenitive_WC_Product_Video {
         define( 'CODENITIVE_WCPV_BASENAME', plugin_basename(__FILE__) );
         define( 'CODENITIVE_WCPV_PATH', plugin_dir_path( __FILE__ ) );
         define( 'CODENITIVE_WCPV_URL', plugin_dir_url( __FILE__ ) );
-        define( 'CODENITIVE_WCPV_VERSION', '1.0.3' );
+        define( 'CODENITIVE_WCPV_VERSION', '1.0.4' );
     }
 
     private function includes() {

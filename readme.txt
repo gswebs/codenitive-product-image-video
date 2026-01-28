@@ -4,7 +4,7 @@ Tags: woocommerce, product video, youtube, vimeo, self hosted video
 Requires at least: 5.6
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -56,6 +56,9 @@ Yes, you can choose to enable videos for desktop only, mobile only, or all devic
 
 == Changelog ==
 
+= 1.0.4 =
+* Rename plugin
+
 = 1.0.3 =
 * Improved WordPress.org compliance and settings sanitization.
 
@@ -73,6 +76,9 @@ Yes, you can choose to enable videos for desktop only, mobile only, or all devic
 * Supports YouTube, Vimeo, and MP4 videos
 
 == Upgrade Notice ==
+
+= 1.0.4 =
+* Rename plugin
 
 = 1.0.3 =
 * Improved WordPress.org compliance and settings sanitization.

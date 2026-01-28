@@ -19,14 +19,14 @@ class CODENIT_WC_Product_Image_Video_Frontend {
             'codenit-wc-pvg',
             CODENITIVE_WCPV_URL . 'assets/css/codenit-video-gallery.css',
             [],
-            '1.1.1'
+            '1.0.4'
         );
     
         wp_enqueue_script(
             'codenit-wc-pvg',
             CODENITIVE_WCPV_URL . 'assets/js/codenit-video-gallery.js',
             [ 'jquery' ],
-            '1.1.8',
+            '1.0.4',
             true
         );
     
