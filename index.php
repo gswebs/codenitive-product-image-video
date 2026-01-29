@@ -1,2 +1,2 @@
 <?php
-// Not allowed to be called directly
+// not allowed to access the file directly

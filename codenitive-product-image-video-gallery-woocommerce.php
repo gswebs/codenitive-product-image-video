@@ -1,7 +1,7 @@
 <?php
 /*
-* Plugin Name: Product Image Video Gallery for WooCommerce
-* Plugin URI:  https://github.com/gswebs/product-image-video-gallery-for-woocommerce
+* Plugin Name: Codenitive Product Image & Video Gallery for WooCommerce
+* Plugin URI:  https://github.com/gswebs/codenitive-product-image-video-gallery-woocommerce
 * Description: Add videos to WooCommerce product image gallery and thumbnails using image attachment fields.
 * Version: 1.0.4
 * Requires at least: 5.6
@@ -12,9 +12,9 @@
 * Requires Plugins: woocommerce
 * License: GPL v2 or later
 * License URI: https://www.gnu.org/licenses/gpl-2.0.html
-* Text Domain: product-image-video-gallery-for-woocommerce
+* Text Domain: codenitive-product-image-video-gallery-woocommerce
 *
-* @package product-image-video-gallery-for-woocommerce
+* @package codenitive-product-image-video-gallery-woocommerce
 */
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly

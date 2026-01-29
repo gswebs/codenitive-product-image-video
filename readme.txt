@@ -1,10 +1,10 @@
-=== Product Image Video Gallery for WooCommerce ===
+=== Codenitive Product Image & Video Gallery for WooCommerce ===
 Contributors: codenitive
 Tags: woocommerce, product video, youtube, vimeo, self hosted video
 Requires at least: 5.6
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 1.0.4
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
